@@ -1,0 +1,21 @@
+---
+version: 1
+service:
+  name: service-defines-dependency
+  lifecycle:
+  tier:
+  product:
+  owner:
+  language:
+  framework:
+  description:
+  aliases:
+  tags:
+  repositories:
+  - name: maxim-opslevel/service-defines-dependency
+    path: "/"
+    provider: github
+  tools:
+  dependencies:
+    alias: service-dependent-defined-by-other-service
+  alert_sources:
