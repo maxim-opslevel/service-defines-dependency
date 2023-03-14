@@ -17,5 +17,5 @@ service:
     provider: github
   tools:
   dependencies:
-    - alias: service-dependent-defined-by-other-service
+  - alias: service-dependent-defined-by-other-service
   alert_sources:
